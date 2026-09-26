@@ -36,9 +36,9 @@ Refreshed → worked.
 **Lesson:** running ≠ reachable. The server and the firewall are two different problems.
 
 ##  Key Takeaways
-- A "healthy" instance and an "accessible" instance are not the same thing
-- Security groups default to deny-all — you must explicitly open every port you need
-- Resizing compute and storage are two separate operations, and compute resizing needs a stop first
+- A healthy instance and an accessible instance are not the same thing.
+- Security groups default to deny-all — you must explicitly open every port you need.
+- Resizing compute and storage are two separate operations, and compute resizing needs a stop first.
 
 ---
 [⬅ Back to overview](../README.md) | [Next: Week 2 — Linux ➡](week-02-linux.md)

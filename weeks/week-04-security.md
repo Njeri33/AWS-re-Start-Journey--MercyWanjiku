@@ -28,9 +28,9 @@ Scoped the Developer IAM policy too tight — locked myself out of resource view
 Switched back to Admin, mapped every action the Developer role actually needed across the full project, rebuilt the policy from a minimal base, added only justified permissions, re-tested end-to-end.
 
 ## Key Takeaways
-- Least privilege is proven by testing denial, not by writing the policy
-- Security services work best as a connected pipeline, not standalone tools
-- Start restrictive and expand deliberately — it's easier than starting open and locking down later
+- Least privilege is proven by testing denial, not by writing the policy.
+- Security services work best as a connected pipeline, not standalone tools.
+- Start restrictive and expand deliberately ;it's easier than starting open and locking down later.
 
 ---
 [⬅ Back to overview](../README.md) | [⬅ Week 3](week-03-networking.md) | [Next: Week 5 — Python ➡](week-05-python.md)

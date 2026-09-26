@@ -28,9 +28,9 @@ Core data types, control flow, functions, file I/O, and debugging — applied to
 **Lesson:** read tracebacks bottom-up. When there's no traceback, the bug is usually a wrong variable, not wrong logic.
 
 ##  Key Takeaways
-- A loud error (traceback) is easier to fix than a silent wrong answer
-- Always check variable types coming from `input()` — they're strings by default
-- Debugging is a skill of isolation: small, single-purpose functions make bugs easy to locate
+- A loud error (traceback) is easier to fix than a silent wrong answer.
+- Always check variable types coming from `input()` — they're strings by default.
+- Debugging is a skill of isolation: small, single-purpose functions make bugs easy to locate.
 
 ---
 [⬅ Back to overview](../README.md) | [⬅ Week 4](week-04-security.md)

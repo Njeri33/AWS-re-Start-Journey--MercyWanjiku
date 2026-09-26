@@ -1,4 +1,4 @@
-# Week 2: Linux & Bash Scripting
+# Week 2: Linux & Bash Scripting Challenge
 
 ## Task
 SSH into an EC2 instance. Write a Bash script that creates 25 empty files per run (`<name><number>`), continuing numbering from the highest existing number — no hardcoded starting point.
@@ -28,9 +28,9 @@ Second run either restarted numbering at 1, or errored out.
 Root cause: string sort instead of numeric sort when finding the max existing number. Fixed with `sort -n`, plus a fallback (`${last:-0}`) for when no files exist yet.
 
 ## Key Takeaways
-- Always test automation scripts by running them more than once, not just once
-- String sort vs. numeric sort is a classic silent bug — `sort -n` matters
-- Small shell scripts can hide big logic bugs; verify output, don't just check "it ran"
+- Always test automation scripts by running them more than once, not just once.
+- String sort vs. numeric sort is a classic silent bug — `sort -n` matters.
+- Small shell scripts can hide big logic bugs; verify output, don't just check "it ran".
 
 ---
 [⬅ Back to overview](../README.md) | [⬅ Week 1](week-01-ec2.md) | [Next: Week 3 — Networking ➡](week-03-networking.md)

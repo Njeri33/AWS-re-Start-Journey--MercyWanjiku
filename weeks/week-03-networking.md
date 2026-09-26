@@ -31,9 +31,9 @@ Found it was associated with the **public** route table by mistake. Re-associate
 **Lesson:** the subnet name means nothing. The route table association is the actual control.
 
 ## Key Takeaways
-- Route table association — not subnet naming — is what actually makes a subnet public or private
-- Always re-test after "fixing" a network config; assumptions are not verification
-- Security-group-to-security-group rules are cleaner than opening ports to the whole internet
+- Route table association — not subnet naming — is what actually makes a subnet public or private.
+- Always re-test after "fixing" a network config; assumptions are not verification.
+- Security-group-to-security-group rules are cleaner than opening ports to the whole internet.
 
 ---
 [⬅ Back to overview](../README.md) | [⬅ Week 2](week-02-linux.md) | [Next: Week 4 — Security ➡](week-04-security.md)
