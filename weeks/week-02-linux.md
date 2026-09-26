@@ -17,7 +17,6 @@ ls -l
 - Ran it multiple times back-to-back to confirm it continues from the last number each time
 
 ## What I Learned
-- `chmod 400` on the `.pem` key is mandatory — SSH refuses overly-permissive keys
 - Default `sort` is alphabetical, not numeric — `10` sorts before `9` unless you use `sort -n`
 - Idempotent scripts (safe to re-run) are a core automation habit, not a nice-to-have
 
