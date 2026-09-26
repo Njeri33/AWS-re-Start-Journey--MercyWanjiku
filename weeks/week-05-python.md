@@ -34,3 +34,5 @@ Core data types, control flow, functions, file I/O, and debugging — applied to
 
 ---
 [⬅ Back to overview](../README.md) | [⬅ Week 4](week-04-security.md)
+
+Week 6 here we come!!
